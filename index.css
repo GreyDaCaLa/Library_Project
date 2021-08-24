@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Permanent+Marker&family=Righteous&display=swap');
+
+
+body {
+    background-color: darkcyan;
+    margin: 1%;
+    /*border: 10px dashed black;*/
+    padding: 1%;
+    width: auto;
+    height: auto;
+}
+
+
+main {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;*/
+    margin: 1%;
+    /*border: 10px dashed red;*/
+    padding: 1%;
+    width: auto;
+    height: auto;
+    /*background-color: aquamarine;*/
+}
+main>div{
+    margin: 0%;
+    /*border: 10px solid yellow;*/
+    padding: 0%;
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    font-family: "Permanent Marker";
+    font-size: 300%;
+    letter-spacing: 5px;
+    display: grid;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    height: auto;
+}
+
+h3 {
+    font-family: Righteous;
+    font-size: 150%;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    display: grid;
+    justify-content: center;
+    margin: 2% 0 0 0;
+    padding: 0%;
+    width: auto;
+    height: auto;
+}
+
+
+
+input[type="submit"] {
+    background-color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: lightgrey;
+    border-radius: 5px 5px;
+}
+
+input[type="text"] {
+    background-color: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    border-radius: 5px 5px;
+    width: 200px;
+}
+
+main>div>div{
+    margin: 0%;
+    /*border: 10px solid yellow;*/
+    padding: 0%;
+    width: auto;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+
+
+}
+
+
+#newBooktable {
+    margin: 1%;
+    /*border: 10px dashed red;*/
+    border-radius: 10px;
+    padding: 1%;
+    width:fit-content;
+    height: auto;
+    font-family: Acme;
+    
+    background-color: aquamarine;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-gap: 10px;
+
+}
+
+#newBooktable >tbody>tr>th {
+    /*border-width: 0px 50px;
+    border-style: dashed;
+    border-color: red;*/
+    /*border: 15px dashed red;*/
+    border-radius: 0px;
+    padding: 1%;
+    width: 70px;
+    height: auto;
+}
+#newBooktable >tbody>tr>td {
+    /*border-width: 0px 50px;
+    border-style: dashed;
+    border-color: red;*/
+    /*border: 15px dashed red;*/
+    border-radius: 0px;
+    padding: 1%;
+    width: 70px;
+    height: auto;
+    text-align: center
+}
+
+#table {
+    margin: 0% 5%;
+    /*padding: 1%;*/
+    width: 120%;
+    height: auto;
+
+    border-collapse: collapse;
+    background-color: aquamarine;
+    border-radius: 20px;
+    /*display: grid;
+    align-content: center;
+    justify-content: space-evenly;*/
+
+}
+
+#table td {
+    font-size: 15px;
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
+    border-color: orange;
+    border-collapse: collapse;
+
+    margin: 10%;
+    padding: 2%;
+    width: 100px;
+    height: auto;
+    text-align: center;
+
+    
+    
+}

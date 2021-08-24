@@ -3,22 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Library Project</title>
   </head>
   <body>
-    <main
-      style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      "
-    >
+    <main>
       <div>
         <h1>Library Project</h1>
+        <h3>Add A New Book!!!</h3>
         <div id="library">
-          <!-- Add table here -->
-          <table id="table" style="min-width: 680px; margin: 2rem">
+          <table id="newBooktable">
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Read It?</th>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" value="EX: The Great Story" name="titleinputbox" id="titleinput">
+              </td>
+              <td>
+                <input type="text" value="EX: Writers Name" name = "authorinputbox" id ="authorinput">
+              </td>
+              <td>
+                <input type= "checkbox" id = "readinput">
+              </td>
+              <td>
+                <input type="submit" value="ADD!!!" id = "newsubmit" onclick="callLibraryAddBook()" >
+              </td>
+            </tr>
+          </table>
+          <h3>The Current Library</h3>
+          <table id="table">
             <thead>
               <tr>
                 <th>Title</th>
@@ -26,20 +42,7 @@
                 <th>Read</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td>Name of the Wind</td>
-                <td>Patrick Rothfuss</td>
-                <td>
-                  <input
-                    type="checkbox"
-                    name="read"
-                    id="readLibraryCheckbox"
-                    checked
-                    disabled
-                  />
-                </td>
-              </tr>
+            <tbody id="fullLibTable">
             </tbody>
           </table>
         </div>
